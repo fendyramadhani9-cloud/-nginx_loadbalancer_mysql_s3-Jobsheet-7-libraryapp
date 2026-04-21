@@ -60,9 +60,6 @@ subnet-associations ke kantor-private-1, kantor-private-2, kantor-private-3
 ````
 
 
-
-
-
 ## B. Fitur
 - ✅ CRUD buku (Create, Read, Update, Delete)
 - ✅ Upload cover buku ke AWS S3
@@ -104,6 +101,7 @@ DB_NAME=perpustakaan
 AWS_REGION=us-east-1
 AWS_ACCESS_KEY_ID=your-access-key
 AWS_SECRET_ACCESS_KEY=your-secret-key
+AWS_SESSION_TOKEN=your-session-token
 S3_BUCKET=your-bucket-name
 ```
 
@@ -218,8 +216,9 @@ DB_USER=admin
 DB_PASSWORD=admin123
 DB_NAME=perpustakaan
 AWS_REGION=us-east-1
-AWS_ACCESS_KEY_ID=YOUR_KEY
-AWS_SECRET_ACCESS_KEY=YOUR_SECRET
+AWS_ACCESS_KEY_ID=your_key
+AWS_SECRET_ACCESS_KEY=your_secret
+AWS_SESSION_TOKEN=your-session-token
 S3_BUCKET=YOUR_BUCKET
 EOF
 
