@@ -216,10 +216,10 @@ DB_USER=admin
 DB_PASSWORD=admin123
 DB_NAME=perpustakaan
 AWS_REGION=us-east-1
-AWS_ACCESS_KEY_ID=your_key
-AWS_SECRET_ACCESS_KEY=your_secret
+AWS_ACCESS_KEY_ID=your-access-key
+AWS_SECRET_ACCESS_KEY=your-secret-key
 AWS_SESSION_TOKEN=your-session-token
-S3_BUCKET=YOUR_BUCKET
+S3_BUCKET=your-bucket-name
 EOF
 
 npm install -g pm2
